@@ -13,36 +13,7 @@
 
 <br/><br/>
 
-### Enjoy!!!
-![Screenshot](assets/screenshots/amor_cv_1.gif)
-
-<br/><br/>
-
-![Screenshot](assets/screenshots/amor_cv_2.gif)
-
-<br/><br/>
-
-### Mobile View
-![Screenshot](assets/screenshots/amor_cv_mobile.gif)
-
-<br/><br/>
-
-## Pages
-![Screenshot](assets/screenshots/actual_header.png)
-![Screenshot](assets/screenshots/actual_about.png)
-![Screenshot](assets/screenshots/actual_education.png)
-![Screenshot](assets/screenshots/actual_experience.png)
-![Screenshot](assets/screenshots/actual_experience_2.png)
-![Screenshot](assets/screenshots/actual_skills.png)
-![Screenshot](assets/screenshots/actual_certifications.png)
-![Screenshot](assets/screenshots/actual_portfolio.png)
-![Screenshot](assets/screenshots/actual_footer.png)
-
-
-<br/><br/>
-<br/><br/>
-
-## Actual Designs Used
+## Designs Used
 
 ![Screenshot](assets/screenshots/amor_typography.png)
 ![Screenshot](assets/screenshots/amor_home.png)
