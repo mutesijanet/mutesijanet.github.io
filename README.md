@@ -1,7 +1,7 @@
 # Amor
 
 <h1 align="center">
-  <a href="https://mutesijanet.github.io/" target="_blank">mutesijanet.github.io/</a>
+  <a href="https://mutesijanet.github.io/" target="_blank"> mutesijanet.github.io/</a>
 </h1>
 
 <p align="center">
