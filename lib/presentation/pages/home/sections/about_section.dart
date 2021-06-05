@@ -136,16 +136,16 @@ class _AboutSectionState extends State<AboutSection> {
                             StringConst.ABOUT_ME_SUMMARY_3,
                             style: aboutMeTextStyle,
                           ),
-                          SpaceH8(),
-                          SelectableText(
-                            StringConst.ABOUT_ME_SUMMARY_4,
-                            style: aboutMeTextStyle,
-                          ),
-                          SpaceH8(),
-                          SelectableText(
-                            StringConst.ABOUT_ME_SUMMARY_5,
-                            style: aboutMeTextStyle,
-                          ),
+//                          SpaceH8(),
+//                          SelectableText(
+//                            StringConst.ABOUT_ME_SUMMARY_4,
+//                            style: aboutMeTextStyle,
+//                          ),
+//                          SpaceH8(),
+//                          SelectableText(
+//                            StringConst.ABOUT_ME_SUMMARY_5,
+//                            style: aboutMeTextStyle,
+//                          ),
                           SpaceH8(),
                         ],
                       ),

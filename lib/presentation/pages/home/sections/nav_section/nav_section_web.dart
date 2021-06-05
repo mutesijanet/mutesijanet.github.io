@@ -113,19 +113,19 @@ class _NavSectionWebState extends State<NavSectionWeb> {
                     }
                   },
                 ),
+//                horizontalSpacing(),
+//                NavItem(
+//                  title: widget.navItems[4].name,
+//                  isSelected: widget.navItems[4].isSelected,
+//                  onTap: () => _onTapNavItem(
+//                    context: widget.navItems[4].key,
+//                    navItemName: widget.navItems[4].name,
+//                  ),
+//                ),
                 horizontalSpacing(),
                 NavItem(
                   title: widget.navItems[4].name,
                   isSelected: widget.navItems[4].isSelected,
-                  onTap: () => _onTapNavItem(
-                    context: widget.navItems[4].key,
-                    navItemName: widget.navItems[4].name,
-                  ),
-                ),
-                horizontalSpacing(),
-                NavItem(
-                  title: widget.navItems[5].name,
-                  isSelected: widget.navItems[5].isSelected,
                   onTap: () => openUrlLink(StringConst.EMAIL_URL),
                 ),
               ],

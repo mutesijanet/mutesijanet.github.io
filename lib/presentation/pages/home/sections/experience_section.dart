@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 const double smCircleRadius = 200;
-const double lgCircleRadius = 280;
+const double lgCircleRadius = 240;
 
 class ExperienceSection extends StatefulWidget {
   @override
@@ -25,8 +25,8 @@ class _ExperienceSectionState extends State<ExperienceSection> {
     double circleWidth = screenWidth * 0.1;
     double smOffsetDx = circleWidth + (smCircleRadius / 2);
     double smOffsetDy = screenHeight * 0.2;
-    double lgOffsetDx = -lgCircleRadius / 6;
-    double lgOffsetDy = screenHeight * 0.7;
+    double lgOffsetDx = -lgCircleRadius / 1.5;
+    double lgOffsetDy = screenHeight * 0.5;
     return Container(
       color: AppColors.darkBlue,
       padding: EdgeInsets.symmetric(
@@ -62,7 +62,7 @@ class _ExperienceSectionState extends State<ExperienceSection> {
                 child: CustomPaint(
                   painter: Circle(
                     offset:
-                        Offset((screenWidth * 0.8) + smOffsetDx, smOffsetDy),
+                        Offset((screenWidth * 0.75) + smOffsetDx, smOffsetDy),
                     radius: smCircleRadius,
                     color: AppColors.purple500,
                   ),

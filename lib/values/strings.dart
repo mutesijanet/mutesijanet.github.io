@@ -2,7 +2,7 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "Jade Macy Portfolio";
+  static const String APP_NAME = "Janet Mutesi Portfolio";
 
   //Nav Section
   static const String NAME_ABBREV = "JM";
@@ -16,11 +16,10 @@ class StringConst {
   static const String INTRO = "Hello! I'm";
 
 //  static const String NAME = "James Martin";
-  static const String NAME = "Jade Macy";
-  static const String PROFESSIONAL_POSITION =
-      "Software Engineer & Data Scientist";
+  static const String NAME = "Janet Mutesi";
+  static const String PROFESSIONAL_POSITION = "Data Scientist";
   static const String CATCH_LINE = "Meeting your digital product needs";
-  static const String EMAIL = "davidcobbina47@gmail.com";
+  static const String EMAIL = "mutesij97@gmail.com";
   static const String EMAIL_URL = "mailto:<$EMAIL>?subject=&body=";
 
   //About Section
@@ -28,15 +27,15 @@ class StringConst {
   static const String PROFESSIONAL = "Professional";
   static const String SUMMARY_TITLE = "Summary";
   static const String ABOUT_ME_SUMMARY_1 =
-      '''I am a versatile, enthusiastic and passionate Software engineer with a solid background in Backend Development''';
+      '''I am a Data Scientist, passionate about helping people through problem identification and solving.''';
   static const String ABOUT_ME_SUMMARY_2 =
-      "I'm a California-based software engineer who specializes in building (and occasionally designing) exceptional digital experiences.";
+      "I have been in the IT field for about five years, and I have developed this interest in solving problems using IT.";
   static const String ABOUT_ME_SUMMARY_3 =
-      "Currently, I'm an engineer at Apple focused on building highly interactive web applications for Apple Music";
-  static const String ABOUT_ME_SUMMARY_4 =
-      "I have learned and honed valuable collaboration and team management skills that have allowed me to both";
-  static const String ABOUT_ME_SUMMARY_5 =
-      "manage and work constructively and inventively in group-based environment.";
+      "I like studying new things in my free time and finding opportunities to apply my skills.";
+//  static const String ABOUT_ME_SUMMARY_4 =
+//      "I have learned and honed valuable collaboration and team management skills that have allowed me to both";
+//  static const String ABOUT_ME_SUMMARY_5 =
+//      "manage and work constructively and inventively in group-based environment.";
 
   //Education Section
   static const String MY = "My";
@@ -44,52 +43,53 @@ class StringConst {
   static const String EDUCATION = "Education";
 
   //Education Section Data
-  static const String EDUCATION_CURRENT_MONTH_YEAR = "June 2021";
-  static const String EDUCATION_STARTED_MONTH_YEAR = "August 2014";
+  static const String EDUCATION_CURRENT_MONTH_YEAR = "June, 2021";
+  static const String EDUCATION_STARTED_MONTH_YEAR = "September 2016";
   static const String WORK_CURRENT_MONTH_YEAR = "June 2018";
   static const String WORK_STARTED_MONTH_YEAR = "Sept 2020";
 
   static const String EDUCATION_1 = "Msc. Information Technology";
-  static const String EDUCATION_1_URL = "https://www.cmu.edu/";
+  static const String EDUCATION_1_URL =
+      "https://www.africa.engineering.cmu.edu/";
 
 //  static const String POSITION_1 = "Software Engineer Intern";
   static const String EDUCATION_1_DESC =
       "Majoring in applied machine learning and Data science.";
-  static const String LOCATION_1 = "Carnegie Mellon University, Pit, USA";
-  static const String DURATION_1 = "Sept. 2020 - Dec. 2021";
+  static const String LOCATION_1 = "Carnegie Mellon University, Africa";
+  static const String DURATION_1 = "Jan. 2021 - Dec. 2022";
 
-  static const String EDUCATION_2 = "Bsc. Computer Science";
-  static const String EDUCATION_2_URL = "https://www.stanford.edu/";
-  static const String EDUCATION_2_DESC =
-      "Majored in Software Engineering and minored in Data Science";
-  static const String LOCATION_2 = "Stanford University, California";
-  static const String DURATION_2 = "August 2014 - May 2018";
+  static const String EDUCATION_2 = "Bsc. Information Technology";
+  static const String EDUCATION_2_URL = "https://ur.ac.rw/";
+  static const String EDUCATION_2_DESC = "Majored in Information Technology";
+  static const String LOCATION_2 = "University Of Rwanda";
+  static const String DURATION_2 = "Sept. 2016 - Dec 2020";
 
-  static const String WORK_1 = "Google";
-  static const String WORK_1_URL = "https://pay.google.com/about/";
-  static const String WORK_1_POSITION = "Software Engineer Intern";
+  static const String WORK_1 = "Rwanda Broadcasting Agency";
+  static const String WORK_1_URL = "https://www.rba.co.rw/";
+  static const String WORK_1_POSITION =
+      "Intern, Technical Division services-IT section ";
   static const String WORK_1_ROLE_1 =
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects";
+      "Responsible for installing applications in new computers, adjusting the different services for proper broadcasting.";
   static const String WORK_1_ROLE_2 =
-      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis";
-  static const String WORK_1_ROLE_3 =
-      "Modified existing software to correct errors, upgrade interfaces and improve performance";
-  static const String WORK_1_ROLE_4 =
-      "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across web and mobile applications.";
+      "Provided help in fixing computers with technical issues";
+//  static const String WORK_1_ROLE_3 =
+//      "Modified existing software to correct errors, upgrade interfaces and improve performance";
+//  static const String WORK_1_ROLE_4 =
+//      "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across web and mobile applications.";
   static const String WORK_1_LOCATION = "Mountain View, California, USA";
-  static const String WORK_1_DURATION = "June 2017 - August 2017";
+  static const String WORK_1_DURATION = "July 2019 - September 2019";
 
-  static const String WORK_2 = "Scout";
-  static const String WORK_2_URL = "https://web.northeastern.edu/scout/";
-  static const String WORK_2_POSITION = "Studio Developer";
+  static const String WORK_2 = "Incisive Africa";
+  static const String WORK_2_URL = "http://www.incisiveafrica.com/contact.htm";
+  static const String WORK_2_POSITION = "Freelancer";
   static const String WORK_2_ROLE_1 =
-      "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern";
-  static const String WORK_2_ROLE_2 =
-      "Interfaced with clients on a weekly basis, providing technological expertise";
-  static const String WORK_2_ROLE_3 =
-      "Modified existing software to correct errors, upgrade interfaces and improve performance";
+      "Responsible for collecting and recording data from primary schools for Early Grade Reading Assessment (EGRA).";
+//  static const String WORK_2_ROLE_2 =
+//      "Interfaced with clients on a weekly basis, providing technological expertise";
+//  static const String WORK_2_ROLE_3 =
+//      "Modified existing software to correct errors, upgrade interfaces and improve performance";
   static const String WORK_2_LOCATION = "California, USA";
-  static const String WORK_2_DURATION = "June 2018 - May 2019";
+  static const String WORK_2_DURATION = "July 2019 - September 2019";
 
   static const String WORK_3 = "Apple";
   static const String WORK_3_URL = "https://www.apple.com/music/";
@@ -121,9 +121,11 @@ class StringConst {
   static const IOT_CERT = "IOT Certification";
   static const RISA = "RISA";
   static const ASSOCIATE_ANDROID_DEV_CERT = "Associate Android Developer";
+  static const PYTHON_DEV_CERT = "Python Certification";
   static const GOOGLE = "Google";
   static const DATA_SCIENCE_CERT = "Data Science";
   static const UDACITY = "Udacity";
+  static const COURSERA = "Coursera";
 
   //Portfolio Section
   static const String PORTFOLIO = "Portfolio";

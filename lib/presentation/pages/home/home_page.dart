@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
     NavItemData(name: StringConst.ABOUT, key: GlobalKey()),
     NavItemData(name: StringConst.RESUME, key: GlobalKey()),
     NavItemData(name: StringConst.SKILLS_AND_CERTIFICATION, key: GlobalKey()),
-    NavItemData(name: StringConst.PORTFOLIO, key: GlobalKey()),
+//    NavItemData(name: StringConst.PORTFOLIO, key: GlobalKey()),
     NavItemData(name: StringConst.CONTACT, key: GlobalKey()),
   ];
 
@@ -102,14 +102,14 @@ class _HomePageState extends State<HomePage> {
                       child: SkillsSection(),
                     ),
                   ),
-                  SpaceH60(),
-                  Container(
-                    key: navItems[4].key,
-                    child: Padding(
-                      padding: EdgeInsets.symmetric(horizontal: sidePadding),
-                      child: PortfolioSection(),
-                    ),
-                  ),
+//                  SpaceH60(),
+//                  Container(
+//                    key: navItems[4].key,
+//                    child: Padding(
+//                      padding: EdgeInsets.symmetric(horizontal: sidePadding),
+//                      child: PortfolioSection(),
+//                    ),
+//                  ),
                   SpaceH60(),
                   FooterSection(),
                 ],

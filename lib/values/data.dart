@@ -29,8 +29,8 @@ class Data {
       body: [
         StringConst.WORK_1_ROLE_1,
         StringConst.WORK_1_ROLE_2,
-        StringConst.WORK_1_ROLE_3,
-        StringConst.WORK_1_ROLE_4,
+//        StringConst.WORK_1_ROLE_3,
+//        StringConst.WORK_1_ROLE_4,
       ],
       location: StringConst.WORK_1_LOCATION,
       duration: StringConst.WORK_1_DURATION,
@@ -41,23 +41,9 @@ class Data {
       titleUrl: StringConst.WORK_2_URL,
       body: [
         StringConst.WORK_2_ROLE_1,
-        StringConst.WORK_2_ROLE_2,
-        StringConst.WORK_2_ROLE_3,
       ],
       location: StringConst.WORK_2_LOCATION,
       duration: StringConst.WORK_2_DURATION,
-    ),
-    ExperienceData(
-      title: StringConst.WORK_3,
-      subtitle: StringConst.WORK_3_POSITION,
-      titleUrl: StringConst.WORK_3_URL,
-      body: [
-        StringConst.WORK_3_ROLE_1,
-        StringConst.WORK_3_ROLE_2,
-        StringConst.WORK_3_ROLE_3,
-      ],
-      location: StringConst.WORK_3_LOCATION,
-      duration: StringConst.WORK_3_DURATION,
     ),
   ];
 
@@ -71,18 +57,18 @@ class Data {
   ];
   static List<CertificationData> certificationData = [
     CertificationData(
-      title: StringConst.DATA_SCIENCE_CERT,
-      url: " ",
-      image: ImagePath.DATA_SCIENCE_CERT,
+      title: StringConst.IOT_CERT,
+      url: "",
+      image: ImagePath.IOT_CERT_2,
       imageSize: 0.30,
-      awardedBy: StringConst.UDACITY,
+      awardedBy: StringConst.RISA,
     ),
     CertificationData(
-      title: StringConst.ASSOCIATE_ANDROID_DEV_CERT,
-      url: " ",
-      image: ImagePath.ASSOCIATE_ANDROID_DEV_CERT,
+      title: StringConst.PYTHON_DEV_CERT,
+      url: "",
+      image: ImagePath.PYTHON_CERT,
       imageSize: 0.30,
-      awardedBy: StringConst.GOOGLE,
+      awardedBy: StringConst.COURSERA,
     )
   ];
 

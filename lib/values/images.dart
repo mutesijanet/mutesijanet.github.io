@@ -7,6 +7,8 @@ class ImagePath {
 
   //Certificates
   static const String IOT_CERT = "$imageDir/iot_cert.png";
+  static const String IOT_CERT_2 = "$imageDir/iot_cert_2.png";
+  static const String PYTHON_CERT = "$imageDir/python_cert.png";
   static const String ASSOCIATE_ANDROID_DEV_CERT =
       "$imageDir/associate_android_dev.png";
   static const String DATA_SCIENCE_CERT = "$imageDir/data_science_cert.png";
