@@ -18,7 +18,8 @@ class EducationSection extends StatelessWidget {
     double screenWidth = widthOfScreen(context);
     double screenHeight = heightOfScreen(context);
     double circleWidth = screenWidth * 0.1;
-    double smOffsetDx = -smCircleRadius;
+//    double smOffsetDx = -smCircleRadius;
+    double smOffsetDx = smCircleRadius;
     double smOffsetDy = screenHeight * 0.6;
     double lgOffsetDx = circleWidth + (lgCircleRadius / 3);
     double lgOffsetDy = screenHeight * 0.2;
