@@ -79,8 +79,8 @@ class _SkillsSectionState extends State<SkillsSection> {
 
   List<Widget> _buildCertification(List<CertificationData> data) {
     List<Widget> certifications = [];
-    double smWidth = assignWidth(context, 0.3);
-    double lgWidth = assignWidth(context, 0.5);
+    double smWidth = assignWidth(context, 1);
+    double lgWidth = assignWidth(context, 0.3);
     double smHeight = assignHeight(context, 0.3);
     double lgHeight = assignHeight(context, 0.45);
     double certificateHeight = context.layout.value(
@@ -91,11 +91,11 @@ class _SkillsSectionState extends State<SkillsSection> {
       xl: lgHeight,
     );
     double certificateWidth = context.layout.value(
-      xs: lgWidth,
-      sm: smWidth,
-      md: smWidth,
-      lg: smWidth,
-      xl: smWidth,
+      xs: smWidth,
+      sm: lgWidth,
+      md: lgWidth,
+      lg: lgWidth,
+      xl: lgWidth,
     );
 
     for (int i = 0; i < data.length; i++) {
