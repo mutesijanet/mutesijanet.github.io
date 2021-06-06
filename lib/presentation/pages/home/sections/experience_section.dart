@@ -25,8 +25,8 @@ class _ExperienceSectionState extends State<ExperienceSection> {
     double circleWidth = screenWidth * 0.1;
     double smOffsetDx = circleWidth + (smCircleRadius / 2);
     double smOffsetDy = screenHeight * 0.2;
-//    double lgOffsetDx = -lgCircleRadius / 1.5;
-    double lgOffsetDx = lgCircleRadius / 1.5;
+    double lgOffsetDx = -lgCircleRadius / 1.5;
+//    double lgOffsetDx = lgCircleRadius / 1.5;
     double lgOffsetDy = screenHeight * 0.5;
     return Container(
       color: AppColors.darkBlue,
