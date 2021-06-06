@@ -40,18 +40,18 @@ class _HomePageState extends State<HomePage> {
     double sidePadding = getSidePadding(context);
     return Scaffold(
       key: _scaffoldKey,
-//      drawer: ResponsiveBuilder(
-//        refinedBreakpoints: RefinedBreakpoints(),
-//        builder: (context, sizingInformation) {
-//          if (sizingInformation.isMobile) {
-//            return AppDrawer(
-//              menuList: navItems,
-//            );
-//          } else {
-//            return Container();
-//          }
-//        },
-//      ),
+      drawer: ResponsiveBuilder(
+        refinedBreakpoints: RefinedBreakpoints(),
+        builder: (context, sizingInformation) {
+          if (sizingInformation.isMobile) {
+            return AppDrawer(
+              menuList: navItems,
+            );
+          } else {
+            return Container();
+          }
+        },
+      ),
       body: Column(
         children: [
           ResponsiveBuilder(
