@@ -56,30 +56,35 @@ class ExperienceColumn extends StatelessWidget {
         children: [
           Row(
             children: [
-              SelectableText(
-                title,
-                style: positionTextStyle ??
-                    textTheme.headline6?.copyWith(
-                      color: AppColors.primaryText,
-                      fontSize: titleFontSize,
-                    ),
+              Expanded(
+                child: SelectableText(
+                  title,
+                  style: positionTextStyle ??
+                      textTheme.headline6?.copyWith(
+                        color: AppColors.primaryText,
+                        fontSize: titleFontSize,
+                      ),
+                ),
               ),
               SpaceW4(),
               subtitle == null
                   ? Container()
-                  : InkWell(
-                      onTap: onTap ?? () => openUrlLink(subtitleUrl),
-                      child: SelectableText(
-                        '@' + subtitle!,
-                        style: companyTextStyle ??
-                            textTheme.headline6?.copyWith(
-                              color: AppColors.purple500,
-                              fontSize: Sizes.TEXT_SIZE_16,
-                            ),
+                  : Expanded(
+                      child: InkWell(
+                        onTap: onTap ?? () => openUrlLink(subtitleUrl),
+                        child: SelectableText(
+                          '@' + subtitle!,
+                          style: companyTextStyle ??
+                              textTheme.headline6?.copyWith(
+                                color: AppColors.purple500,
+                                fontSize: Sizes.TEXT_SIZE_16,
+                              ),
+                        ),
                       ),
                     )
             ],
           ),
+          SpaceH4(),
           SelectableText(
             location,
             style: locationTextStyle ??
