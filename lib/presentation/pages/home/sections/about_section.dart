@@ -31,28 +31,28 @@ class _AboutSectionState extends State<AboutSection> {
     super.initState();
   }
 
-//  @override
-//  void didUpdateWidget(AboutSection oldWidget) {
-//    super.didUpdateWidget(oldWidget);
-//    if (mounted) {
-//      WidgetsBinding.instance?.addPostFrameCallback((_) {
-//        _getHeightOfAboutContainer();
-//      });
-//    }
-//  }
+  @override
+  void didUpdateWidget(AboutSection oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (mounted) {
+      WidgetsBinding.instance?.addPostFrameCallback((_) {
+        _getHeightOfAboutContainer();
+      });
+    }
+  }
 
   _getHeightOfAboutContainer() {
-//    final RenderBox sectionTitleRenderBox =
-//        sectionTitleKey.currentContext?.findRenderObject() as RenderBox;
-//    final RenderBox aboutContainerRenderBox =
-//        aboutMeContainerKey.currentContext?.findRenderObject() as RenderBox;
-//
-//    final sectionTitleHeight = sectionTitleRenderBox.size.height;
-//    final aboutContainerHeight = aboutContainerRenderBox.size.height;
-//    setState(() {
-//      sectionTitleOffset = sectionTitleHeight;
-//      aboutMeContainerOffset = aboutContainerHeight;
-//    });
+    final RenderBox sectionTitleRenderBox =
+        sectionTitleKey.currentContext?.findRenderObject() as RenderBox;
+    final RenderBox aboutContainerRenderBox =
+        aboutMeContainerKey.currentContext?.findRenderObject() as RenderBox;
+
+    final sectionTitleHeight = sectionTitleRenderBox.size.height;
+    final aboutContainerHeight = aboutContainerRenderBox.size.height;
+    setState(() {
+      sectionTitleOffset = sectionTitleHeight;
+      aboutMeContainerOffset = aboutContainerHeight;
+    });
   }
 
   @override
@@ -83,16 +83,16 @@ class _AboutSectionState extends State<AboutSection> {
     return Container(
       child: Stack(
         children: [
-//          CustomPaint(
-//            painter: Circle(
-//              offset: Offset(
-//                screenWidth * 0.78,
-//                sectionTitleOffset + kSpacing16 + (aboutMeContainerOffset / 2),
-//              ),
-//              radius: (aboutMeContainerOffset / 2) - kSpacing16,
-//              color: AppColors.accentColor100,
-//            ),
-//          ),
+          CustomPaint(
+            painter: Circle(
+              offset: Offset(
+                screenWidth * 0.78,
+                sectionTitleOffset + kSpacing16 + (aboutMeContainerOffset / 2),
+              ),
+              radius: (aboutMeContainerOffset / 2) - kSpacing16,
+              color: AppColors.accentColor100,
+            ),
+          ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
