@@ -46,29 +46,29 @@ class _ExperienceSectionState extends State<ExperienceSection> {
           SpaceH40(),
           Stack(
             children: [
-              Container(
-                height: circleWidth,
-                width: circleWidth,
-                child: CustomPaint(
-                  painter: Circle(
-                    offset: Offset(lgOffsetDx, lgOffsetDy),
-                    radius: lgCircleRadius,
-                    color: AppColors.purple500,
-                  ),
-                ),
-              ),
-              Container(
-                height: circleWidth,
-                width: circleWidth,
-                child: CustomPaint(
-                  painter: Circle(
-                    offset:
-                        Offset((screenWidth * 0.75) + smOffsetDx, smOffsetDy),
-                    radius: smCircleRadius,
-                    color: AppColors.purple500,
-                  ),
-                ),
-              ),
+//              Container(
+//                height: circleWidth,
+//                width: circleWidth,
+//                child: CustomPaint(
+//                  painter: Circle(
+//                    offset: Offset(lgOffsetDx, lgOffsetDy),
+//                    radius: lgCircleRadius,
+//                    color: AppColors.purple500,
+//                  ),
+//                ),
+//              ),
+//              Container(
+//                height: circleWidth,
+//                width: circleWidth,
+//                child: CustomPaint(
+//                  painter: Circle(
+//                    offset:
+//                        Offset((screenWidth * 0.75) + smOffsetDx, smOffsetDy),
+//                    radius: smCircleRadius,
+//                    color: AppColors.purple500,
+//                  ),
+//                ),
+//              ),
               ResponsiveBuilder(
                 builder: (context, sizingInformation) {
                   if (sizingInformation.screenSize.width <

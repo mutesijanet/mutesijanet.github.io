@@ -38,29 +38,29 @@ class EducationSection extends StatelessWidget {
           SpaceH40(),
           Stack(
             children: [
-              Container(
-                height: circleWidth,
-                width: circleWidth,
-                child: CustomPaint(
-                  painter: Circle(
-                    offset: Offset(smOffsetDx, smOffsetDy),
-                    radius: smCircleRadius,
-                    color: AppColors.accentColor100,
-                  ),
-                ),
-              ),
-              Container(
-                height: circleWidth,
-                width: circleWidth,
-                child: CustomPaint(
-                  painter: Circle(
-                    offset:
-                        Offset((screenWidth * 0.8) + lgOffsetDx, lgOffsetDy),
-                    radius: lgCircleRadius,
-                    color: AppColors.accentColor100,
-                  ),
-                ),
-              ),
+//              Container(
+//                height: circleWidth,
+//                width: circleWidth,
+//                child: CustomPaint(
+//                  painter: Circle(
+//                    offset: Offset(smOffsetDx, smOffsetDy),
+//                    radius: smCircleRadius,
+//                    color: AppColors.accentColor100,
+//                  ),
+//                ),
+//              ),
+//              Container(
+//                height: circleWidth,
+//                width: circleWidth,
+//                child: CustomPaint(
+//                  painter: Circle(
+//                    offset:
+//                        Offset((screenWidth * 0.8) + lgOffsetDx, lgOffsetDy),
+//                    radius: lgCircleRadius,
+//                    color: AppColors.accentColor100,
+//                  ),
+//                ),
+//              ),
               ResponsiveBuilder(
                 builder: (context, sizingInformation) {
                   if (sizingInformation.screenSize.width <=
