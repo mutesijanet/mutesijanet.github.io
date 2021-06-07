@@ -22,12 +22,5 @@ class AmorApp extends StatelessWidget {
         routeInformationParser: _appRouter.defaultRouteParser(),
       ),
     );
-//
-//    return MaterialApp(
-//      title: StringConst.APP_NAME,
-//      theme: AppTheme.lightThemeData,
-//      debugShowCheckedModeBanner: false,
-//      home: StaggeredExtentExtentPage(),
-//    );
   }
 }

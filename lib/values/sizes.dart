@@ -211,7 +211,7 @@ class Sizes {
   static const double RADIUS_8 = 8.0;
   static const double RADIUS_6 = 6.0;
   static const double RADIUS_4 = 4.0;
-  static const double RADIUS_0 = 0.0;
+//  static const double RADIUS_0 = 0.0;
 
   //Elevations
   static const double ELEVATION_16 = 16.0;
