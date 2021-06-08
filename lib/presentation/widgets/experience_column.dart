@@ -44,8 +44,8 @@ class ExperienceColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     TextTheme textTheme = Theme.of(context).textTheme;
     double titleFontSize = context.layout.value(
-      xs: Sizes.TEXT_SIZE_18,
-      sm: Sizes.TEXT_SIZE_20,
+      xs: Sizes.TEXT_SIZE_16,
+      sm: Sizes.TEXT_SIZE_16,
       md: Sizes.TEXT_SIZE_20,
       lg: Sizes.TEXT_SIZE_20,
       xl: Sizes.TEXT_SIZE_20,
@@ -56,14 +56,15 @@ class ExperienceColumn extends StatelessWidget {
         children: [
           Row(
             children: [
-              SelectableText(
-                title,
-                style: positionTextStyle ??
-                    textTheme.headline6?.copyWith(
-                      color: AppColors.primaryText,
-                      height: 1.2,
-                      fontSize: titleFontSize,
-                    ),
+              Expanded(
+                child: SelectableText(
+                  title,
+                  style: positionTextStyle ??
+                      textTheme.headline6?.copyWith(
+                        color: AppColors.primaryText,
+                        fontSize: titleFontSize,
+                      ),
+                ),
               ),
               SpaceW4(),
               subtitle == null
@@ -76,7 +77,7 @@ class ExperienceColumn extends StatelessWidget {
                           style: companyTextStyle ??
                               textTheme.headline6?.copyWith(
                                 color: AppColors.purple500,
-                                fontSize: Sizes.TEXT_SIZE_16,
+                                fontSize: Sizes.TEXT_SIZE_14,
                               ),
                         ),
                       ),
