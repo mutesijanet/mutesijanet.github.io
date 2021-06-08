@@ -3,7 +3,7 @@ import 'package:amor/utils/functions.dart';
 import 'package:flutter/material.dart';
 import 'package:amor/presentation/widgets/spaces.dart';
 import 'package:amor/values/values.dart';
-import 'package:layout/layout.dart';
+import 'package:layout/layout.dart ';
 
 class ExperienceColumn extends StatelessWidget {
   ExperienceColumn({
