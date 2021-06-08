@@ -1,5 +1,4 @@
 import 'package:amor/presentation/layout/adaptive.dart';
-import 'package:amor/presentation/widgets/circle.dart';
 import 'package:amor/presentation/widgets/section_title.dart';
 import 'package:amor/presentation/widgets/spaces.dart';
 import 'package:amor/presentation/widgets/sub_section_title.dart';
@@ -15,11 +14,6 @@ class AboutSection extends StatefulWidget {
 }
 
 class _AboutSectionState extends State<AboutSection> {
-  GlobalKey aboutMeContainerKey = GlobalKey();
-  GlobalKey sectionTitleKey = GlobalKey();
-  double sectionTitleOffset = 0.0;
-  double aboutMeContainerOffset = 0.0;
-
   @override
   Widget build(BuildContext context) {
     TextTheme textTheme = Theme.of(context).textTheme;
@@ -52,12 +46,10 @@ class _AboutSectionState extends State<AboutSection> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SectionTitle(
-                key: sectionTitleKey,
                 title: StringConst.ABOUT_ME,
               ),
               SizedBox(height: kSpacing16),
               Container(
-                key: aboutMeContainerKey,
                 width: screenWidth * 0.85,
                 padding: EdgeInsets.all(containerPadding),
                 decoration: BoxDecoration(
