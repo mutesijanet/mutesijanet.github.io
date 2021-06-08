@@ -56,15 +56,14 @@ class ExperienceColumn extends StatelessWidget {
         children: [
           Row(
             children: [
-              Expanded(
-                child: SelectableText(
-                  title,
-                  style: positionTextStyle ??
-                      textTheme.headline6?.copyWith(
-                        color: AppColors.primaryText,
-                        fontSize: titleFontSize,
-                      ),
-                ),
+              SelectableText(
+                title,
+                style: positionTextStyle ??
+                    textTheme.headline6?.copyWith(
+                      color: AppColors.primaryText,
+                      height: 1.2,
+                      fontSize: titleFontSize,
+                    ),
               ),
               SpaceW4(),
               subtitle == null

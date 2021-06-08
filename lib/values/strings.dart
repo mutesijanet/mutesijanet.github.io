@@ -66,8 +66,7 @@ class StringConst {
 
   static const String WORK_1 = "Rwanda Broadcasting Agency";
   static const String WORK_1_URL = "https://www.rba.co.rw/";
-  static const String WORK_1_POSITION =
-      "Intern, Technical Division services-IT section ";
+  static const String WORK_1_POSITION = "Intern";
   static const String WORK_1_ROLE_1 =
       "Responsible for installing applications in new computers, adjusting the different services for proper broadcasting.";
   static const String WORK_1_ROLE_2 =
